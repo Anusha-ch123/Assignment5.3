@@ -1,0 +1,55 @@
+input{
+    padding: 8px;
+    margin: 8px;
+}
+input[type="email"],
+input[type="password"]{
+    width: 300px;
+}
+body{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/041/713/016/non_2x/ai-generated-abstract-blurred-background-of-modern-office-with-glass-walls-shows-desks-and-chairs-with-computer-free-photo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    justify-self: center;
+    width: 40%;
+    margin-top: 100px;
+}
+a, h3, label{
+    color: white;
+}
+label a{
+    padding: 10px;
+}
+h3{
+    text-align: center;
+}
+button{
+    background-color: orange;
+    color:white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-radius:5px; 
+    padding: 10px;
+    width: 300px;
+}
+form{
+    background-color: rgb(0, 0, 0, 0.7);
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+img{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+}
+.checkbox-label {
+    display: flex; 
+    align-items: center; 
+    color: white; 
+    padding: 10px;
+}
+
